@@ -1,0 +1,46 @@
+name: Monitor System
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+  push:
+    paths:
+      - 't.csv'
+      - 'main.go'
+      - 'proto/*.go'
+      - '.github/workflows/ac.yaml'
+
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Run Monitor Script
+        run: |
+          go mod tidy
+          go run main.go
+        env:
+          PROD_WEBHOOK_URL: ${{ secrets.PROD_WEBHOOK_URL }}
+          PROD_WEBHOOK_SECRET: ${{ secrets.PROD_WEBHOOK_SECRET }}
+
+      - name: Save Artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dataset-results
+          path: dataset_*.bin
+          retention-days: 7

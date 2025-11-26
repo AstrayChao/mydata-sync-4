@@ -1,0 +1,18 @@
+syntax="proto3";
+package monitor;
+option go_package = "./proto";
+
+message CheckResult {
+  string id = 1;
+  string type = 2;
+  bool is_accessible = 3;
+  int32 status_code = 4;
+  int64 response_time_ms = 8;
+  string url = 5;
+  string error_reason = 6;
+  string created_at = 7;
+}
+
+message ResultSet {
+  repeated CheckResult results = 1;
+}
