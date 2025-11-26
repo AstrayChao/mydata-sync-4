@@ -109,17 +109,24 @@ func pushToWebhook(data *monitor.ResultSet) {
 	gw.Write(pbBytes)
 	gw.Close()
 
-	url := os.Getenv("PROD_WEBHOOK_URL")
+	url := strings.TrimSpace(os.Getenv("PROD_WEBHOOK_URL"))
 	if url == "" {
+		slog.Warn("跳过推送: PROD_WEBHOOK_URL 未设置")
 		return
 	}
 
 	se := os.Getenv("PROD_WEBHOOK_SECRET")
 	if se == "" {
+		slog.Warn("跳过推送: PROD_WEBHOOK_SECRET 未设置")
 		return
 	}
 
-	req, _ := http.NewRequest("POST", url, &buf)
+	req, err := http.NewRequest("POST", url, &buf)
+    if err != nil {
+        // 如果 URL 格式非法，这里会捕获，而不是 Panic
+        slog.Error("创建请求失败 (检查 URL 格式)", "err", err, "url", url)
+        return
+    }
 	req.Header.Set("Content-Type", "application/x-protobuf")
 	req.Header.Set("Content-Encoding", "gzip")
 	req.Header.Set("X-Webhook-Secret", se)
