@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"os"
 	"time"
-
+	"strings"
 	monitor "mydata-sync-4/proto"
 
 	"golang.org/x/sync/errgroup"
