@@ -70,6 +70,7 @@ func runChecks(targets []*monitor.CheckResult) []*monitor.CheckResult {
 		Timeout: 10 * time.Second,
 		Transport: &http.Transport{
 			DisableKeepAlives: true,
+			TLSNextProto: map[string]func(authority string, c *tls.Conn) http.RoundTripper{},
 		},
 	}
 
@@ -79,7 +80,12 @@ func runChecks(targets []*monitor.CheckResult) []*monitor.CheckResult {
 			// 1. 设置时间戳
 			t.CreatedAt = time.Now().In(CstZone).Format(time.DateTime)
 
-			req, _ := http.NewRequestWithContext(ctx, "GET", t.Url, nil)
+			req, err := http.NewRequestWithContext(ctx, "GET", safeUrl, nil)
+			if err != nil {
+				t.IsAccessible = false
+				t.ErrorReason = fmt.Sprintf("URL构建失败: %v", err)
+				return nil
+			}
 
 			// 2. 计时开始
 			start := time.Now()
