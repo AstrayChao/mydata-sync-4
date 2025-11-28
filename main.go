@@ -4,15 +4,19 @@ import (
 	"bytes"
 	"compress/gzip"
 	"context"
+	"crypto/aes"
+	"crypto/cipher"
+	"crypto/md5"
+	"crypto/sha256"
 	"encoding/csv"
 	"fmt"
 	"io"
 	"log/slog"
+	monitor "mydata-sync-4/proto"
 	"net/http"
 	"os"
-	"time"
 	"strings"
-	monitor "mydata-sync-4/proto"
+	"time"
 
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/proto"
@@ -122,11 +126,11 @@ func pushToWebhook(data *monitor.ResultSet) {
 	}
 
 	req, err := http.NewRequest("POST", url, &buf)
-    if err != nil {
-        // 如果 URL 格式非法，这里会捕获，而不是 Panic
-        slog.Error("创建请求失败 (检查 URL 格式)", "err", err, "url", url)
-        return
-    }
+	if err != nil {
+		// 如果 URL 格式非法，这里会捕获，而不是 Panic
+		slog.Error("创建请求失败 (检查 URL 格式)", "err", err, "url", url)
+		return
+	}
 	req.Header.Set("Content-Type", "application/x-protobuf")
 	req.Header.Set("Content-Encoding", "gzip")
 	req.Header.Set("X-Webhook-Secret", se)
@@ -164,8 +168,59 @@ func loadTargets(path string) []*monitor.CheckResult {
 	return list
 }
 
+// aesEncrypt 使用 AES-CBC 加密数据
+func aesEncrypt(data []byte, key string) ([]byte, error) {
+	// 使用 SHA256 生成 32 字节的密钥
+	keyHash := sha256.Sum256([]byte(key))
+
+	// 创建 AES cipher
+	block, err := aes.NewCipher(keyHash[:])
+	if err != nil {
+		return nil, fmt.Errorf("创建 AES cipher 失败: %v", err)
+	}
+
+	// 使用 MD5 作为 IV（初始化向量）
+	iv := md5.Sum(keyHash[:])
+
+	// 填充数据到块大小的倍数
+	blockSize := block.BlockSize()
+	padding := blockSize - len(data)%blockSize
+	paddedData := append(data, bytes.Repeat([]byte{byte(padding)}, padding)...)
+
+	// 创建加密模式
+	mode := cipher.NewCBCEncrypter(block, iv[:])
+
+	// 加密数据
+	encrypted := make([]byte, len(paddedData))
+	mode.CryptBlocks(encrypted, paddedData)
+
+	return encrypted, nil
+}
+
 func saveProtoFile(name string, data *monitor.ResultSet) {
+	// 序列化 protobuf 数据
 	b, _ := proto.Marshal(data)
-	os.WriteFile(name, b, 0644)
-	slog.Info("保存文件成功", "file", name, "count", len(data.Results))
+
+	// 从环境变量获取加密密钥
+	encryptionKey := os.Getenv("ENCRYPTION_KEY")
+	if encryptionKey == "" {
+		slog.Warn("未设置 ENCRYPTION_KEY，将保存未加密的文件")
+		os.WriteFile(name, b, 0644)
+		slog.Info("保存文件成功", "file", name, "count", len(data.Results))
+		return
+	}
+
+	// 使用 AES 加密数据
+	encryptedData, err := aesEncrypt(b, encryptionKey)
+	if err != nil {
+		slog.Error("加密数据失败", "err", err)
+		// 如果加密失败，保存未加密的数据
+		os.WriteFile(name, b, 0644)
+		slog.Info("保存文件成功（未加密）", "file", name, "count", len(data.Results))
+		return
+	}
+
+	// 保存加密后的数据
+	os.WriteFile(name, encryptedData, 0644)
+	slog.Info("保存加密文件成功", "file", name, "count", len(data.Results))
 }
