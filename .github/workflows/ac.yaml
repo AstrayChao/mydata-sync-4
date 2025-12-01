@@ -37,10 +37,10 @@ jobs:
           PROD_WEBHOOK_URL: ${{ secrets.PROD_WEBHOOK_URL }}
           PROD_WEBHOOK_SECRET: ${{ secrets.PROD_WEBHOOK_SECRET }}
 
-      - name: Save Artifact
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: dataset-results
-          path: dataset_*.bin
-          retention-days: 7
+      # - name: Save Artifact
+      #   if: success()
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: dataset-results
+      #     path: dataset_*.bin
+      #     retention-days: 7
