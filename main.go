@@ -72,8 +72,15 @@ func runChecks(targets []*monitor.CheckResult) []*monitor.CheckResult {
 				t.IsAccessible = false
 				t.ErrorReason = err.Error()
 			} else {
-				t.IsAccessible = true
 				t.StatusCode = int32(resp.StatusCode)
+
+				if resp.StatusCode > 0 && resp.StatusCode < 400 {
+					t.IsAccessible = true
+					t.ErrorReason = ""
+				} else {
+					t.IsAccessible = false
+					t.ErrorReason = fmt.Sprintf("HTTP异常: %d %s", resp.StatusCode, http.StatusText(resp.StatusCode))
+				}
 				io.Copy(io.Discard, resp.Body)
 				resp.Body.Close()
 			}
