@@ -31,6 +31,7 @@ type CheckResult struct {
 	Url            string                 `protobuf:"bytes,5,opt,name=url,proto3" json:"url,omitempty"`
 	ErrorReason    string                 `protobuf:"bytes,6,opt,name=error_reason,json=errorReason,proto3" json:"error_reason,omitempty"`
 	CreatedAt      string                 `protobuf:"bytes,7,opt,name=created_at,json=createdAt,proto3" json:"created_at,omitempty"`
+	UrlType        string                 `protobuf:"bytes,9,opt,name=url_type,json=urlType,proto3" json:"url_type,omitempty"`
 	unknownFields  protoimpl.UnknownFields
 	sizeCache      protoimpl.SizeCache
 }
@@ -121,6 +122,13 @@ func (x *CheckResult) GetCreatedAt() string {
 	return ""
 }
 
+func (x *CheckResult) GetUrlType() string {
+	if x != nil {
+		return x.UrlType
+	}
+	return ""
+}
+
 type ResultSet struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	Results       []*CheckResult         `protobuf:"bytes,1,rep,name=results,proto3" json:"results,omitempty"`
@@ -169,7 +177,7 @@ var File_proto_monit_proto protoreflect.FileDescriptor
 
 const file_proto_monit_proto_rawDesc = "" +
 	"\n" +
-	"\x11proto/monit.proto\x12\amonitor\"\xf5\x01\n" +
+	"\x11proto/monit.proto\x12\amonitor\"\x90\x02\n" +
 	"\vCheckResult\x12\x0e\n" +
 	"\x02id\x18\x01 \x01(\tR\x02id\x12\x12\n" +
 	"\x04type\x18\x02 \x01(\tR\x04type\x12#\n" +
@@ -180,7 +188,8 @@ const file_proto_monit_proto_rawDesc = "" +
 	"\x03url\x18\x05 \x01(\tR\x03url\x12!\n" +
 	"\ferror_reason\x18\x06 \x01(\tR\verrorReason\x12\x1d\n" +
 	"\n" +
-	"created_at\x18\a \x01(\tR\tcreatedAt\";\n" +
+	"created_at\x18\a \x01(\tR\tcreatedAt\x12\x19\n" +
+	"\burl_type\x18\t \x01(\tR\aurlType\";\n" +
 	"\tResultSet\x12.\n" +
 	"\aresults\x18\x01 \x03(\v2\x14.monitor.CheckResultR\aresultsB\tZ\a./protob\x06proto3"
 
