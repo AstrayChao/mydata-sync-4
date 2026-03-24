@@ -196,15 +196,13 @@ func pushToWebhook(data *monitor.ResultSet) {
 	url := strings.TrimSpace(os.Getenv("PROD_WEBHOOK_URL"))
 	if url == "" {
 		slog.Warn("跳过推送: PROD_WEBHOOK_URL 未设置")
-		url = "https://datatrusted.cn/web-monitor-hook/harvest"
 		return
 	}
 
 	se := os.Getenv("PROD_WEBHOOK_SECRET")
 	if se == "" {
 		slog.Warn("跳过推送: PROD_WEBHOOK_SECRET 未设置")
-		se = "eW6uTAv2bh8zMhdcvbEBKcWhZdWrsm3MwkEMa6sc3tXjQ4huXNAmxe23"
-		// return
+		return
 	}
 
 	req, err := http.NewRequest("POST", url, &buf)

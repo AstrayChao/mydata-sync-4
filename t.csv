@@ -5982,7 +5982,7 @@ id,type,url,url_type
 019a0529-497f-7906-933e-ecac6343451c,dataset,https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients,download_url
 019a0529-4f3d-7608-b45a-6094787cad3d,dataset,https://huggingface.co/datasets/livecodebench/code_generation_lite,download_url
 01997fa0-ae79-79c8-b890-cda1a6c50a85,dataset,https://physionet.org/content/mimiciii/1.4/,download_url
-01997fa0-adde-75a3-847d-e5a445fcbeab,dataset,https://cddis.nasa.gov/archive/gnss/ data/daily/"year"/"day"/*d/site*.gz,download_url
+01997fa0-adde-75a3-847d-e5a445fcbeab,dataset,https://cddis.nasa.gov/archive/gnss/data/daily/"year"/"day"/*d/site*.gz,download_url
 01997fa0-ae21-7d58-a453-259c5ba026f6,dataset,https://www.ndbc.noaa.gov/obs.shtml,download_url
 01997fa0-ade1-7024-b75f-fd1f584325f1,dataset,ftp://edc.dgfi.tum.de/,download_url
 01997fa0-adf8-7c84-b778-457ea999e530,dataset,https://alcdef.org/,download_url
