@@ -5130,7 +5130,7 @@ id,type,url,url_type
 019a0529-4e85-75cc-86ce-a9d7e0d47c8e,dataset,https://bmrb.io/,database_url
 01997fa0-addc-75c7-b0bf-89f23415e941,dataset,https://cddis.nasa.gov/archive/gnss/data/daily/,database_url
 01997fa0-ade9-762e-a8a2-168f861d2269,dataset,https://ampere.jhuapl.edu/,database_url
-019a0529-4b4d-70c7-a443-70655e277809,dataset,https://nsidc.org/data/search#keywords=SMAP-project/sortKeys=score,,desc/facetFilters=%257B%257D/pageNumber=1/itemsPerPage=25,database_url
+019a0529-4b4d-70c7-a443-70655e277809,dataset,"https://nsidc.org/data/search#keywords=SMAP-project/sortKeys=score,,desc/facetFilters=%257B%257D/pageNumber=1/itemsPerPage=25",database_url
 019a0529-4ef5-770c-9a86-24785f1a86a7,dataset,https://github.com,database_url
 01997fa0-ae26-7cc2-b816-f6ece3167df0,dataset,https://lternet.edu/,database_url
 01997fa0-ae46-7654-b7a0-7e2db1f6692e,dataset,https://www.geneontology.org/,database_url
@@ -5197,7 +5197,7 @@ id,type,url,url_type
 019a0529-50cb-7255-a499-0f3aa287c259,dataset,https://huggingface.co,database_url
 019a0529-491f-7fc2-b4ba-0cf24e5f8321,dataset,https://jarvis.nist.gov/jarvisdft/,database_url
 01997fa0-adcc-7da1-b599-2ed862c11e17,dataset,https://physics.nist.gov/PhysRefData/Star/Text/ESTAR.html,database_url
-01997fa0-ae4f-798e-9975-2eec1b5039f1,dataset,https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?VirusLineage_ss=Viruses,taxid:10239&SeqType_s=Nucleotide,database_url
+01997fa0-ae4f-798e-9975-2eec1b5039f1,dataset,"https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?VirusLineage_ss=Viruses,taxid:10239&SeqType_s=Nucleotide",database_url
 019a0529-4a75-74c5-b36d-52f3cc59accf,dataset,https://eospso.nasa.gov/missions/solar-radiation-and-climate-experiment,database_url
 019a0529-4b29-78fc-af5b-8e75423f7bca,dataset,https://disc.gsfc.nasa.gov/datasets?keywords=oco&page=1,database_url
 01997fa0-ae71-7fc6-a68d-8172a12483f3,dataset,https://github.com/,database_url
@@ -5225,7 +5225,7 @@ id,type,url,url_type
 01997fa0-add4-7eb1-b6d6-87e756358eff,dataset,https://webbook.nist.gov/chemistry/,database_url
 01997fa0-addb-7258-9b52-86f87fc45549,dataset,https://spp.jhuapl.edu/,database_url
 01997fa0-addb-7ae8-8a98-1b1e0432ba96,dataset,https://ui.adsabs.harvard.edu/,database_url
-019a0529-4b9f-79c1-9fbe-75eba7589dda,dataset,https://earth.gsfc.nasa.gov/hydro/data/nasa-usda-global-soil-moisture-data#:~:text=The%20NASA-USDA%20Global%20soil%20moisture%20data%20provides%20soil,moisture%20information%20across%20the%20globe%20at%200.25%C2%B0x0.25%C2%B0spatial%20resolution.,database_url
+019a0529-4b9f-79c1-9fbe-75eba7589dda,dataset,"https://earth.gsfc.nasa.gov/hydro/data/nasa-usda-global-soil-moisture-data#:~:text=The%20NASA-USDA%20Global%20soil%20moisture%20data%20provides%20soil,moisture%20information%20across%20the%20globe%20at%200.25%C2%B0x0.25%C2%B0spatial%20resolution",database_url
 01997fa0-ade0-71ff-832f-daec9e277fbc,dataset,https://ivscc.gsfc.nasa.gov/,database_url
 019a0529-4da1-7666-8a09-0def7092b78a,dataset,https://www.metabolomicsworkbench.org/,database_url
 01997fa0-add9-7be5-8e85-c547a91c92c7,dataset,https://www.aiche.org/dippr,database_url
@@ -5642,7 +5642,7 @@ id,type,url,url_type
 01997fa0-ae66-7843-931a-b0b116f0b2f9,dataset,https://www.argoverse.org/data.html,download_url
 019a0529-5025-7a98-a258-513d87974933,dataset,https://www.lvisdataset.org/dataset,download_url
 01997fa0-ade9-762e-a8a2-168f861d2269,dataset,https://ampere.jhuapl.edu/browse/,download_url
-019a0529-4b4d-70c7-a443-70655e277809,dataset,https://nsidc.org/data/search#keywords=SMAP-project/sortKeys=score,,desc/facetFilters=%257B%257D/pageNumber=1/itemsPerPage=25,download_url
+019a0529-4b4d-70c7-a443-70655e277809,dataset,"https://nsidc.org/data/search#keywords=SMAP-project/sortKeys=score,,desc/facetFilters=%257B%257D/pageNumber=1/itemsPerPage=25",download_url
 019a0529-5141-7199-a1fb-be1ad4a7eb3f,dataset,https://huggingface.co/datasets/nampdn-ai/tiny-codes,download_url
 019a0529-4b11-740e-b27c-683b63c1503a,dataset,https://search.earthdata.nasa.gov/search?q=ICESat,download_url
 01997fa0-ae43-7350-924f-0f77988f0caa,dataset,https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/10X/,download_url
@@ -5904,7 +5904,7 @@ id,type,url,url_type
 01997fa0-adce-7dd4-bcd6-676b3938dc83,dataset,https://pubchem.ncbi.nlm.nih.gov/,download_url
 01997fa0-adf6-7c1c-b01a-3476878626ec,dataset,https://psaftp.esac.esa.int/WebInterface/function/,download_url
 01997fa0-ae48-752c-bafc-f1438326205b,dataset,http://gnomad-sg.org/downloads,download_url
-01997fa0-ae2e-73e1-9704-f463716e23af,dataset,https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0304215#:~:text=This%20dataset%20contains%20four%20companion%20digital%20models%20of,as%20geographic%20and%20Mercator%20grids%20with%20two-minute%20resolution.,download_url
+01997fa0-ae2e-73e1-9704-f463716e23af,dataset,"https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0304215#:~:text=This%20dataset%20contains%20four%20companion%20digital%20models%20of,as%20geographic%20and%20Mercator%20grids%20with%20two-minute%20resolution",download_url
 01997fa0-ae28-7c1f-9936-06cefee2e0d1,dataset,https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-multi-resolution-terrain-elevation,download_url
 01997fa0-adcb-7322-ae03-2383d9ac3132,dataset,https://moleculenet.org/datasets-1,download_url
 019a0529-5093-7730-9e63-0c6d08d34623,dataset,https://github.com/hughw19/NOCS_CVPR2019,download_url
