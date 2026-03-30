@@ -4924,7 +4924,7 @@ id,type,url,url_type
 01997fa0-ae0e-7f27-ba82-aa76818f376f,dataset,https://ldas.gsfc.nasa.gov/gldas/,database_url
 019a0529-4a09-7dd4-aaeb-9d2accdc3472,dataset,https://des.ncsa.illinois.edu/releases/dr2,database_url
 01997fa0-adc4-752d-a2da-4058c44d3755,dataset,https://lambda.gsfc.nasa.gov/product/planck/curr/planck_prod_third_party.html,database_url
-019a0529-4af9-79ec-ade4-4524a35df39e,dataset,https://podaac.jpl.nasa.gov/cloud-datasets?search=ECCO,database_url
+019a0529-4af9-79ec-ade4-4524a35df39e,dataset,https://ecco-group.org/products.htm,database_url
 019a0529-49ed-7321-a059-5ce4448bf06a,dataset,https://fermi.gsfc.nasa.gov/ssc/data/access/,database_url
 01997fa0-ae19-7d21-b543-c9008646d3a6,dataset,https://www.neonscience.org,database_url
 01997fa0-ae29-7a57-a4df-b8940d8883b7,dataset,https://iabp.apl.uw.edu/index.html,database_url
@@ -4950,7 +4950,7 @@ id,type,url,url_type
 019a0529-4c47-791f-9cff-b8713a7313c7,dataset,https://paleobiodb.org,database_url
 019a0529-499d-7ba2-a90f-9592151ec672,dataset,https://www.stsci.edu/,database_url
 01997fa0-ae6d-79bc-adae-0905857a339e,dataset,https://github.com,database_url
-019a0529-4b93-7db1-b0b2-04b03414ce62,dataset,https://ngdc.noaa.gov/mgg/global/global.html,database_url
+019a0529-4b93-7db1-b0b2-04b03414ce62,dataset,https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/MGG/DEM//iso/xml/etopo_2022.xml&view=getDataView&header=none,database_url
 019a0529-4bcd-7c3a-83c4-1fe1289e39de,dataset,http://gold.cs.ucf.edu/data/search,database_url
 01997fa0-ae72-7fdd-8ff7-c357e8613936,dataset,https://trust-hub.org/,database_url
 019a0529-4bab-76f9-8f53-a19d6fde5719,dataset,https://earthexplorer.usgs.gov/,database_url
@@ -4974,7 +4974,7 @@ id,type,url,url_type
 019a0529-4ce9-798d-bb7c-fa88b8c00ffb,dataset,https://genomics.senescence.info/,database_url
 01997fa0-adeb-7e3e-b543-9ff6d968f151,dataset,http://159.226.22.207/brazil,database_url
 019a0529-4cdb-757c-ae2f-e4f0af8a3e42,dataset,https://portal.nersc.gov/CheckV,database_url
-019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1,database_url
+019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/dataset/noaa-high-resolution-sea-surface-temperature-sst-analysis-products2,database_url
 019a0529-48d5-7768-aee5-6fb68dd3444f,dataset,https://www.iaea.org/resources/databases/nuclear-data-services,database_url
 019a0529-4ccf-7659-941a-a1e4cdd4769b,dataset,https://calscape.org/,database_url
 019a0529-4d22-71cf-b43e-46789b222a77,dataset,http://www.pantherdb.org/,database_url
@@ -5108,7 +5108,7 @@ id,type,url,url_type
 01997fa0-ae70-72c1-ba16-23e411d51f22,dataset,https://foldseek.steineggerlab.workers.dev/,database_url
 01997fa0-adf7-773b-8b04-ed5a379013ed,dataset,https://www.imcce.fr/recherche/ssodnet,database_url
 01997fa0-ae19-7081-ad97-082910bd8a0d,dataset,https://www.metoffice.gov.uk/,database_url
-01997fa0-ae21-7f27-9367-829f7dfc2251,dataset,https://www.usgs.gov/,database_url
+01997fa0-ae21-7f27-9367-829f7dfc2251,dataset,https://data.usgs.gov/datacatalog/data/USGS:ASC135,database_url
 019a0529-50fb-7345-ae5f-9e56220bbb2a,dataset,https://huggingface.co,database_url
 01997fa0-adc2-7506-8992-d4266ce814f2,dataset,https://lambda.gsfc.nasa.gov/product/planck/curr/planck_prod_irsa.html,database_url
 019a0529-4fc1-76b4-b08c-74513ba8fe1a,dataset,https://github.com,database_url
@@ -5121,7 +5121,7 @@ id,type,url,url_type
 019a0529-5031-7a21-b799-02614e6a6dc0,dataset,https://www.kaggle.com,database_url
 019a0529-5111-7cce-93da-ad12f58a4e71,dataset,https://github.com,database_url
 01997fa0-ae36-7d6d-b321-675904a0ac4b,dataset,https://www.ncbi.nlm.nih.gov/,database_url
-019a0529-4b41-70fa-aff9-f31904b48b7b,dataset,https://podaac.jpl.nasa.gov/cloud-datasets?search=QuikSCAT,database_url
+019a0529-4b41-70fa-aff9-f31904b48b7b,dataset,https://earthdata.nasa.gov/,database_url
 01997fa0-ae67-728a-86a3-5e260849057c,dataset,https://www.argoverse.org,database_url
 01997fa0-ae43-7350-924f-0f77988f0caa,dataset,https://storage.googleapis.com/linnarsson-lab-human/,database_url
 019a0529-4f9b-7597-975e-14ca6c8e4b41,dataset,https://github.com,database_url
@@ -5209,7 +5209,7 @@ id,type,url,url_type
 019a0529-492b-7280-83c3-049f9307512b,dataset,https://mona.fiehnlab.ucdavis.edu/,database_url
 01997fa0-ae6e-7ad4-8d9b-fe749422a94f,dataset,https://dataverse.harvard.edu,database_url
 019a0529-4973-718c-84aa-24712f6bc2eb,dataset,https://rruff.info/,database_url
-019a0529-4a53-764b-8cd5-581f0d4c44de,dataset,https://spdf.gsfc.nasa.gov/pub/data/dmaspf17/ssusi/data,database_url
+019a0529-4a53-764b-8cd5-581f0d4c44de,dataset,https://spdf.gsfc.nasa.gov/,database_url
 01997fa0-adcf-7e5f-8c3b-918eec3cea28,dataset,https://icsd.fiz-karlsruhe.de/index.xhtml;jsessionid=7C97DEA29F41CA51A8DC69FDCCDC06D3,database_url
 019a0529-5189-780c-8712-719150d4a892,dataset,https://huggingface.co,database_url
 01997fa0-ae6f-76e0-9a86-bfa6f632f8ad,dataset,https://physionet.org,database_url
@@ -5461,7 +5461,7 @@ id,type,url,url_type
 01997fa0-ae19-7d21-b543-c9008646d3a6,dataset,https://data.neonscience.org/data-products/explore,download_url
 01997fa0-adce-773a-9bb2-16f5dad30a30,dataset,https://trc.nist.gov/cryogenics/materials/materialproperties.htm,download_url
 01997fa0-adc4-752d-a2da-4058c44d3755,dataset,https://lambda.gsfc.nasa.gov/product/planck/curr/planck_prod_third_party.html,download_url
-019a0529-4af9-79ec-ade4-4524a35df39e,dataset,https://podaac.jpl.nasa.gov/cloud-datasets?search=ECCO,download_url
+019a0529-4af9-79ec-ade4-4524a35df39e,dataset,https://ecco-group.org/products.htm,download_url
 01997fa0-adfa-757e-be2a-bf1843177314,dataset,https://hirise-pds.lpl.arizona.edu/PDS/,download_url
 01997fa0-ae22-7f74-bc54-76a77930bf83,dataset,https://earthexplorer.usgs.gov/,download_url
 01997fa0-ae7a-7780-ae63-d99d51d18d78,dataset,https://mothur.org/,download_url
@@ -5528,7 +5528,7 @@ id,type,url,url_type
 019a0529-4e9d-76db-bf96-75c28bc2f04e,dataset,https://www.marylandbiodiversity.com/,download_url
 019a0529-4c01-7919-a549-98453145f743,dataset,https://www.cpc.ncep.noaa.gov/products/CORe/pns/eval/eval_datasets.html,download_url
 01997fa0-ae25-76be-9f09-83d4502aafb3,dataset,https://georem.mpch-mainz.gwdg.de/,download_url
-019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1,download_url
+019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/dataset/noaa-high-resolution-sea-surface-temperature-sst-analysis-products2,download_url
 019a0529-4d95-7f5a-929a-9d5527ef87a3,dataset,https://www.ebi.ac.uk/metabolights/,download_url
 01997fa0-ae6d-7a42-b711-a615a9c92194,dataset,https://github.com/Keith-S-Thompson/dhrystone,download_url
 01997fa0-adf5-7b1f-894b-8aaa30c37ded,dataset,https://gwosc.org/eventapi/html/GWTC/,download_url
@@ -5623,7 +5623,7 @@ id,type,url,url_type
 019a0529-51dc-73b4-bba2-ef0ac9b71411,dataset,http://ai.stanford.edu/~yukez/visual7w/,download_url
 01997fa0-ae19-7081-ad97-082910bd8a0d,dataset,https://www.metoffice.gov.uk/hadobs/hadisst/index.html,download_url
 019a0529-4b65-7ac3-a454-1ae87bbe5241,dataset,https://www.ncei.noaa.gov/products/gridded-geostationary-brightness-temperature,download_url
-01997fa0-ae21-7f27-9367-829f7dfc2251,dataset,https://alaska.usgs.gov/products/data/glaciers/gpr.php,download_url
+01997fa0-ae21-7f27-9367-829f7dfc2251,dataset,https://www.sciencebase.gov/catalog/item/5bae7ec5e4b08583a5d31209,download_url
 01997fa0-adfa-7704-899a-6cf86beea2bd,dataset,https://lasp.colorado.edu/maven/sdc/public/data/sci/,download_url
 01997fa0-ae4d-7429-ad2f-b0281ea61569,dataset,https://www.humanconnectome.org/,download_url
 01997fa0-adc2-7506-8992-d4266ce814f2,dataset,https://lambda.gsfc.nasa.gov/product/planck/curr/planck_prod_irsa.html,download_url
@@ -5638,7 +5638,7 @@ id,type,url,url_type
 01997fa0-ae51-7fc0-aeff-d8871cc9751a,dataset,https://ftp.ncbi.nlm.nih.gov/pub/medgen/,download_url
 019a0529-4f9b-7597-975e-14ca6c8e4b41,dataset,https://github.com/delimitrou/DeathStarBench,download_url
 019a0529-4d2d-78c8-91f8-3f9ce462f8fa,dataset,http://cmprod1.cibio.unitn.it/databases/PhyloPhlAn/,download_url
-019a0529-4b41-70fa-aff9-f31904b48b7b,dataset,https://podaac.jpl.nasa.gov/cloud-datasets?search=QuikSCAT,download_url
+019a0529-4b41-70fa-aff9-f31904b48b7b,dataset,https://earthdata.nasa.gov/,download_url
 01997fa0-ae66-7843-931a-b0b116f0b2f9,dataset,https://www.argoverse.org/data.html,download_url
 019a0529-5025-7a98-a258-513d87974933,dataset,https://www.lvisdataset.org/dataset,download_url
 01997fa0-ade9-762e-a8a2-168f861d2269,dataset,https://ampere.jhuapl.edu/browse/,download_url
@@ -5706,7 +5706,7 @@ id,type,url,url_type
 019a0529-4a23-73f1-bdcc-87ede5b9ac2c,dataset,https://www.ztf.caltech.edu/ztf-public-releases.html,download_url
 01997fa0-adfc-70a8-b664-77053acd91f5,dataset,https://www.usgs.gov/centers/astrogeology-science-center/science/analysis-ready-data,download_url
 019a0529-5189-780c-8712-719150d4a892,dataset,https://huggingface.co/datasets/codeparrot/xlcost-text-to-code,download_url
-019a0529-4a53-764b-8cd5-581f0d4c44de,dataset,https://spdf.gsfc.nasa.gov/pub/data/dmaspf17/ssusi/data,download_url
+019a0529-4a53-764b-8cd5-581f0d4c44de,dataset,https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf17/ssusi/,download_url
 01997fa0-ae5f-7bf6-8368-e48266a06a73,dataset,https://www.snomed.org,download_url
 019a0529-4acd-7450-aecc-21bee8f97245,dataset,https://registry.opendata.aws/sentinel-2/,download_url
 019a0529-4cbd-7005-8c2b-54a682843a2f,dataset,https://calphotos.berkeley.edu,download_url
@@ -5936,7 +5936,7 @@ id,type,url,url_type
 01997fa0-adbf-7811-8ac6-d020a77d9d39,dataset,https://www.nndc.bnl.gov/endf/,download_url
 019a0529-4a47-7347-b33d-d1441bc6b5cb,dataset,https://gong2.nso.edu/archive/patch.pl,download_url
 019a0529-49b7-7cbb-8839-7527285c65be,dataset,https://jsoc1.stanford.edu/data/aia/synoptic/,download_url
-019a0529-4b93-7db1-b0b2-04b03414ce62,dataset,https://ngdc.noaa.gov/mgg/global/global.html,download_url
+019a0529-4b93-7db1-b0b2-04b03414ce62,dataset,https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/MGG/DEM//iso/xml/etopo_2022.xml&view=getDataView&header=none,download_url
 019a0529-49f9-71a4-b4a9-c2c63b98fcd1,dataset,https://www.legacysurvey.org/dr10/description/,download_url
 019a0529-4ae5-7331-93e4-20b6a2abd80f,dataset,https://modis.gsfc.nasa.gov/data/dataprod/mod15.php,download_url
 019a0529-4ff5-7812-9f71-6bd86ccb496f,dataset,https://github.com/hendrycks/robustness,download_url
