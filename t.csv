@@ -5089,7 +5089,7 @@ id,type,url,url_type
 019a0529-5087-787d-ac7f-cca03a564045,dataset,https://daniilidis-group.github.io,database_url
 01997fa0-add1-7b92-90dc-516b37e1dac6,dataset,https://www.ccdc.cam.ac.uk/,database_url
 019a0529-4d39-7aea-8acc-4690dba6b23a,dataset,http://sgd-archive.yeastgenome.org/?prefix=expression/,database_url
-01997fa0-adc9-7430-bac0-f528b34c2054,dataset,https://www.usgs.gov/labs/spec-lab/spectral-library,database_url
+01997fa0-adc9-7430-bac0-f528b34c2054,dataset,https://www.usgs.gov/labs/spectroscopy-lab/science/spectral-library,database_url
 01997fa0-ae69-7718-b020-e5cfbe4192b6,dataset,https://nihcc.app.box.com/,database_url
 01997fa0-ae2a-7cab-95e0-03fa00b90bf2,dataset,https://www.globalfiredata.org/,database_url
 019a0529-4d07-7c61-b0d0-faa04137abb2,dataset,https://greengenes2.ucsd.edu/,database_url
@@ -5259,7 +5259,7 @@ id,type,url,url_type
 01997fa0-ae7b-7520-b293-4a278626923f,dataset,https://data.nist.gov/,database_url
 01997fa0-ae48-7b3d-b074-83450e5461ac,dataset,https://ghdx.healthdata.org/,database_url
 01997fa0-ae55-77bc-aad9-9078aef573a3,dataset,https://www.cdc.gov/,database_url
-01997fa0-add5-7ec7-853a-2b711bedb586,dataset,http://www.jetting.com.cn/Bio-Rad/Sadtler/SadtlerDB_Index.html,database_url
+01997fa0-add5-7ec7-853a-2b711bedb586,dataset,https://www.ir-spectra.com/sadtler/sadtler.htm,database_url
 01997fa0-ae49-704b-bab5-466595f1b2e4,dataset,https://gold.jgi.doe.gov/,database_url
 01997fa0-addd-777a-94c8-9447e1419708,dataset,https://cddis.nasa.gov/,database_url
 01997fa0-ae08-794c-927e-a1b0c70a10b4,dataset,https://www.geodata.cn/,database_url
@@ -5950,7 +5950,7 @@ id,type,url,url_type
 01997fa0-ae04-7e22-bec8-45b8c39d2bec,dataset,http://tds.hycom.org/thredds/catalogs/GLBv0.08/expt_53.X.html,download_url
 019a0529-4fb7-7448-8aec-b0ca3516d8a4,dataset,https://github.com/LisaAnne/TemporalLanguageRelease,download_url
 01997fa0-ae64-74d1-85c3-112ba5affc5c,dataset,http://wellyzhang.github.io/project/acre.html,download_url
-01997fa0-adc9-7430-bac0-f528b34c2054,dataset,https://www.usgs.gov/labs/spectroscopy-lab/science/spectral-library,download_url
+01997fa0-adc9-7430-bac0-f528b34c2054,dataset,https://www.usgs.gov/labs/spectroscopy-lab/usgs-spectral-library,download_url
 019a0529-5001-7bd0-a101-72f310b322af,dataset,https://github.com/google-research-datasets/KELM-corpus,download_url
 01997fa0-ae0f-7673-b4a5-4a8f6971d9ba,dataset,https://www.ncei.noaa.gov/products/world-ocean-database,download_url
 01997fa0-ae5d-70e1-8c55-fd4b1ddd6678,dataset,https://ftp.ncbi.nlm.nih.gov/refseq/,download_url
