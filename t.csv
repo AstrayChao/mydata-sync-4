@@ -5106,7 +5106,7 @@ id,type,url,url_type
 019a0529-5049-710c-ac2c-43b0073650cc,dataset,https://huggingface.co,database_url
 01997fa0-ae47-7816-a915-1c566ce0442d,dataset,https://www.ncbi.nlm.nih.gov/datasets/genome,database_url
 01997fa0-ae70-72c1-ba16-23e411d51f22,dataset,https://foldseek.steineggerlab.workers.dev/,database_url
-01997fa0-adf7-773b-8b04-ed5a379013ed,dataset,https://www.imcce.fr/recherche/ssodnet,database_url
+01997fa0-adf7-773b-8b04-ed5a379013ed,dataset,https://ssp.imcce.fr/webservices/ssodnet/,database_url
 01997fa0-ae19-7081-ad97-082910bd8a0d,dataset,https://www.metoffice.gov.uk/,database_url
 01997fa0-ae21-7f27-9367-829f7dfc2251,dataset,https://data.usgs.gov/datacatalog/data/USGS:ASC135,database_url
 019a0529-50fb-7345-ae5f-9e56220bbb2a,dataset,https://huggingface.co,database_url
@@ -5973,7 +5973,7 @@ id,type,url,url_type
 01997fa0-ae6f-76e0-9a86-bfa6f632f8ad,dataset,https://eicu-crd.mit.edu/,download_url
 01997fa0-ae49-7a9a-8d42-f1fe1f002753,dataset,http://www.gramene.org,download_url
 01997fa0-ae6c-7fd1-9cb0-4f138e88b306,dataset,https://wiki.dbpedia.org/datasets,download_url
-01997fa0-adf1-724d-8d81-10dc0d615a99,dataset,https://soar.esac.esa.int/soar-sl-tap/data?,download_url
+01997fa0-adf1-724d-8d81-10dc0d615a99,dataset,https://soar.esac.esa.int/soar/#search,download_url
 019a0529-4fdd-7ada-a028-3416da5c05ab,dataset,https://github.com/NVlabs/ffhq-dataset,download_url
 01997fa0-adf0-7940-bb94-11eda6de8f02,dataset,https://www.lmsal.com/heksearch/,download_url
 01997fa0-adf4-7739-ba23-f7a8302c304c,dataset,https://cxc.cfa.harvard.edu/cdaftp,download_url
