@@ -5051,7 +5051,7 @@ id,type,url,url_type
 01997fa0-ae23-79fe-a208-de835bff1a23,dataset,https://fluxnet.org/,database_url
 01997fa0-ae48-752c-bafc-f1438326205b,dataset,http://gnomad-sg.org/,database_url
 019a0529-4db5-7b3d-bf01-44a64ad683b0,dataset,https://proteomic.datacommons.cancer.gov/pdc/,database_url
-019a0529-51ab-79dc-8124-6704de2ff9e5,dataset,http://irtualhumans.mpi-inf.mpg.de,database_url
+019a0529-51ab-79dc-8124-6704de2ff9e5,dataset,http://virtualhumans.mpi-inf.mpg.de/,database_url
 01997fa0-ae76-7eba-b405-193d42112609,dataset,https://huggingface.co/,database_url
 019a0529-4b7b-78d1-9bcf-bb1db4032c70,dataset,https://livingatlas.arcgis.com/landcoverexplorer/#mapCenter=35.13695%2C11.13721%2C11&mode=step&timeExtent=2017%2C2024&year=2024&downloadMode=true,database_url
 019a0529-5171-71b3-a67b-5a69022cf869,dataset,https://github.com,database_url
@@ -5078,7 +5078,7 @@ id,type,url,url_type
 01997fa0-ae07-7bdf-9465-9c4c85e049c4,dataset,https://search.earthdata.nasa.gov/,database_url
 019a0529-4c8d-7089-bcea-fb27ac2b0729,dataset,https://landscan.ornl.gov/,database_url
 019a0529-4bc3-7d71-8588-09392168f638,dataset,https://firms.modaps.eosdis.nasa.gov/download/,database_url
-019a0529-4b87-7a58-bef6-5f2c10f57a3b,dataset,http://eogdata.mines.edu/,database_url
+019a0529-4b87-7a58-bef6-5f2c10f57a3b,dataset,019a0529-4b87-7a58-bef6-5f2c10f57a3b,database_url
 019a0529-4c21-7c5d-a380-e0b273619fac,dataset,https://climatedataguide.ucar.edu/climate-data/soda-simple-ocean-data-assimilation,database_url
 01997fa0-ae2c-7b8a-a77d-c87380ed17a3,dataset,https://psl.noaa.gov/,database_url
 01997fa0-ae41-7572-bbce-02eba443417e,dataset,http://www.disease-ontology.org/,database_url
@@ -5155,7 +5155,7 @@ id,type,url,url_type
 019a0529-4f49-7006-8903-c2f77b9648ad,dataset,https://huggingface.co,database_url
 01997fa0-addc-70d9-99ae-9330111e8ed0,dataset,https://www.cosmos.esa.int/web/gaia/data,database_url
 019a0529-4f55-7442-a657-db6c71a986a8,dataset,https://github.com,database_url
-01997fa0-ae16-749e-82fe-9e9d050ba003,dataset,https://hinetwww11.bosai.go.jp,database_url
+01997fa0-ae16-749e-82fe-9e9d050ba003,dataset,https://www.hinet.bosai.go.jp/,database_url
 01997fa0-ae25-7fcb-a039-8c214a33510e,dataset,https://www.gebco.net/,database_url
 01997fa0-ae15-7064-bf4f-d439a6669068,dataset,https://www.ncei.noaa.gov/,database_url
 01997fa0-adfc-70a8-b664-77053acd91f5,dataset,https://www.usgs.gov,database_url
@@ -5164,7 +5164,7 @@ id,type,url,url_type
 01997fa0-ae28-7c1f-9936-06cefee2e0d1,dataset,https://www.usgs.gov/,database_url
 01997fa0-ae38-7449-8b91-cb2bbdfd7b99,dataset,https://sites.broadinstitute.org/ccle/,database_url
 019a0529-4f79-7b82-a0cf-8a23fd617485,dataset,https://huggingface.co,database_url
-019a0529-51f5-710a-b453-8df984403702,dataset,http://lp.cs.washington.edu,database_url
+019a0529-51f5-710a-b453-8df984403702,dataset,https://nlp.cs.washington.edu/sciIE/,database_url
 019a0529-4a23-73f1-bdcc-87ede5b9ac2c,dataset,https://www.ztf.caltech.edu/ztf-public-releases.html,database_url
 01997fa0-adea-7c5b-8c87-22f11da54391,dataset,https://iris.gsfc.nasa.gov/,database_url
 019a0529-4c69-705b-ae38-23937adaece6,dataset,https://www.climatologylab.org/terraclimate.html,database_url
@@ -5223,7 +5223,7 @@ id,type,url,url_type
 019a0529-497f-7906-933e-ecac6343451c,dataset,https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients,database_url
 019a0529-4ec1-74f7-9f6c-288afeba1492,dataset,https://github.com,database_url
 01997fa0-add4-7eb1-b6d6-87e756358eff,dataset,https://webbook.nist.gov/chemistry/,database_url
-01997fa0-addb-7258-9b52-86f87fc45549,dataset,https://spp.jhuapl.edu/,database_url
+01997fa0-addb-7258-9b52-86f87fc45549,dataset,http://research.ssl.berkeley.edu/data/psp/,database_url
 01997fa0-addb-7ae8-8a98-1b1e0432ba96,dataset,https://ui.adsabs.harvard.edu/,database_url
 019a0529-4b9f-79c1-9fbe-75eba7589dda,dataset,"https://earth.gsfc.nasa.gov/hydro/data/nasa-usda-global-soil-moisture-data#:~:text=The%20NASA-USDA%20Global%20soil%20moisture%20data%20provides%20soil,moisture%20information%20across%20the%20globe%20at%200.25%C2%B0x0.25%C2%B0spatial%20resolution",database_url
 01997fa0-ade0-71ff-832f-daec9e277fbc,dataset,https://ivscc.gsfc.nasa.gov/,database_url
@@ -5342,7 +5342,7 @@ id,type,url,url_type
 01997fa0-ae0c-73b3-bb8a-1bf5107461cd,dataset,https://topex.ucsd.edu/grav_outreach/,database_url
 01997fa0-ae0c-7c81-9396-abb40930a2df,dataset,https://fondationtaraocean.org/,database_url
 01997fa0-ae0d-70a3-80a7-16450f0e97f8,dataset,https://gedi.umd.edu/data/products/,database_url
-01997fa0-adf1-724d-8d81-10dc0d615a99,dataset,https://soar.esac.esa.int/soar/,database_url
+01997fa0-adf1-724d-8d81-10dc0d615a99,dataset,https://soar.esac.esa.int/soar/#search,database_url
 01997fa0-ae11-7eca-b462-89ae2b597707,dataset,https://gdex.ucar.edu/,database_url
 01997fa0-ae17-7165-a873-00e5598146f9,dataset,https://rda.ucar.edu/,database_url
 01997fa0-ae38-76e7-8cbd-d96e2ecca8dd,dataset,https://card.mcmaster.ca/,database_url
@@ -5364,7 +5364,7 @@ id,type,url,url_type
 01997fa0-ae3d-79cf-a47c-fd51877cfde4,dataset,http://cancer.sanger.ac.uk,database_url
 01997fa0-ae40-7de4-8815-88658a9cefd5,dataset,https://www.dfam.org/,database_url
 01997fa0-ae3d-7912-9c2c-7904fc80540b,dataset,https://comptox.epa.gov/dashboard/,database_url
-01997fa0-ae4c-747f-afc2-90d782cf1af0,dataset,http://www.genenames.org/ ,database_url
+01997fa0-ae4c-747f-afc2-90d782cf1af0,dataset,http://www.genenames.org/,database_url
 01997fa0-ae59-73c5-beff-8e000d641b22,dataset,https://phytozome.jgi.doe.gov/,database_url
 01997fa0-ae63-7222-96a0-fcd5a7490081,dataset,https://genome.ucsc.edu,database_url
 01997fa0-ae4f-7a6e-93ce-e71625260811,dataset,https://www.immgen.org/ ,database_url
@@ -5664,7 +5664,7 @@ id,type,url,url_type
 01997fa0-ae25-7fcb-a039-8c214a33510e,dataset,https://www.gebco.net/data-products/gridded-bathymetry-data,download_url
 019a0529-4e85-75cc-86ce-a9d7e0d47c8e,dataset,https://bmrb.io/,download_url
 01997fa0-addc-70d9-99ae-9330111e8ed0,dataset,https://gea.esac.esa.int/archive/,download_url
-01997fa0-ae16-749e-82fe-9e9d050ba003,dataset,https://hinetwww11.bosai.go.jp,download_url
+01997fa0-ae16-749e-82fe-9e9d050ba003,dataset,https://www.hinet.bosai.go.jp/,download_url
 019a0529-4f79-7b82-a0cf-8a23fd617485,dataset,https://huggingface.co/datasets/uonlp/CulturaX,download_url
 01997fa0-ae52-7062-a27c-58da69f3831f,dataset,http://www.informatics.jax.org/home/recombinase,download_url
 019a0529-4f01-765f-9e61-b8f5b8c0e95d,dataset,https://huggingface.co/datasets/lmsys/chatbot_arena_conversations,download_url
@@ -5793,7 +5793,7 @@ id,type,url,url_type
 01997fa0-ade7-7532-ac49-6b49f896312e,dataset,https://spdf.gsfc.nasa.gov/pub/data/rbsp/,download_url
 01997fa0-adec-782d-a997-214911000c3b,dataset,https://www.ncei.noaa.gov/data/dmsp-space-weather-sensors/access/,download_url
 01997fa0-ae30-7bb2-a3c5-33fc2cc2b4d0,dataset,https://www.10xgenomics.com/datasets/,download_url
-01997fa0-addf-7591-b19a-cdad2c5da61e,dataset,ftp://esmdata.gfz-potsdam.de/EAM,download_url
+01997fa0-addf-7591-b19a-cdad2c5da61e,dataset,https://esmdata.gfz.de/repository/entry/show?entryid=175da162-f26e-49ff-a9ab-23afeb8667ba,download_url
 01997fa0-ae09-7e2b-9f11-ba05bed399ad,dataset,https://download.isc.ac.uk/,download_url
 01997fa0-ade0-7ee6-b140-60d7b8ddfafa,dataset,https://datacenter.iers.org/products/,download_url
 01997fa0-ae15-792b-8988-a9652d747eef,dataset,https://www.nhc.noaa.gov/text/,download_url
