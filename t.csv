@@ -5639,7 +5639,7 @@ id,type,url,url_type
 019a0529-4f9b-7597-975e-14ca6c8e4b41,dataset,https://github.com/delimitrou/DeathStarBench,download_url
 019a0529-4d2d-78c8-91f8-3f9ce462f8fa,dataset,http://cmprod1.cibio.unitn.it/databases/PhyloPhlAn/,download_url
 019a0529-4b41-70fa-aff9-f31904b48b7b,dataset,https://earthdata.nasa.gov/,download_url
-01997fa0-ae66-7843-931a-b0b116f0b2f9,dataset,https://www.argoverse.org/data.html,download_url
+01997fa0-ae66-7843-931a-b0b116f0b2f9,dataset,https://www.argoverse.org/av1.html,download_url
 019a0529-5025-7a98-a258-513d87974933,dataset,https://www.lvisdataset.org/dataset,download_url
 01997fa0-ade9-762e-a8a2-168f861d2269,dataset,https://ampere.jhuapl.edu/browse/,download_url
 019a0529-4b4d-70c7-a443-70655e277809,dataset,"https://nsidc.org/data/search#keywords=SMAP-project/sortKeys=score,,desc/facetFilters=%257B%257D/pageNumber=1/itemsPerPage=25",download_url
@@ -5674,7 +5674,7 @@ id,type,url,url_type
 019a0529-4945-7370-825c-a1ff0db3b0fc,dataset,https://nds.iaea.org/cdroms/,download_url
 019a0529-51f5-710a-b453-8df984403702,dataset,http://nlp.cs.washington.edu/sciIE/,download_url
 019a0529-50e1-7af7-895a-d2c849960a8f,dataset,https://github.com/bdhingra/quasar,download_url
-01997fa0-ae06-7a70-aac8-8d40d914b330,dataset,https://asdc.larc.nasa.gov/project/CALIPSO,download_url
+01997fa0-ae06-7a70-aac8-8d40d914b330,dataset,https://search.earthdata.nasa.gov/search?q=CALIPSO&fi=CALIOP&fl=1B%2B-%2BRadiance%252C%2BSensor%2BCoordinates,download_url
 01997fa0-ae64-7f88-952c-0259ddf4eff9,dataset,http://www.wormbase.org/,download_url
 019a0529-4fcf-73c9-8aaf-676e4d4bd835,dataset,https://github.com/joojs/fairface,download_url
 019a0529-4967-72c5-9779-d8e376b54a8f,dataset,https://refractiveindex.info/download/database/rii-database-2025-02-23.zip,download_url
