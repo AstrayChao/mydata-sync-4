@@ -5094,7 +5094,7 @@ id,type,url,url_type
 01997fa0-ae2a-7cab-95e0-03fa00b90bf2,dataset,https://www.globalfiredata.org/,database_url
 019a0529-4d07-7c61-b0d0-faa04137abb2,dataset,https://greengenes2.ucsd.edu/,database_url
 019a0529-49c3-7e31-99e4-e0a32359bc1d,dataset,https://irsa.ipac.caltech.edu/frontpage/,database_url
-019a0529-5195-75c3-91fe-7ae5c87eff2c,dataset,https://segment-anything.com,database_url
+019a0529-5195-75c3-91fe-7ae5c87eff2c,dataset,https://ai.meta.com/datasets/,database_url
 019a0529-4e53-737c-b99a-63d98f85dc56,dataset,https://datadryad.org/,database_url
 01997fa0-ae71-7269-b494-04c4a58446e2,dataset,https://www.kaggle.com/,database_url
 01997fa0-adf5-7b1f-894b-8aaa30c37ded,dataset,https://gwosc.org/,database_url
@@ -5949,7 +5949,7 @@ id,type,url,url_type
 01997fa0-adca-713c-8998-fd2c5907df44,dataset,https://nmrshiftdb.nmr.uni-koeln.de/nmrshiftdb/media-type/html/user/anon/page/default.psml/js_pane/P-Search;jsessionid=C7A900D3E2B46E16D916A75CFABBD830,download_url
 01997fa0-ae04-7e22-bec8-45b8c39d2bec,dataset,http://tds.hycom.org/thredds/catalogs/GLBv0.08/expt_53.X.html,download_url
 019a0529-4fb7-7448-8aec-b0ca3516d8a4,dataset,https://github.com/LisaAnne/TemporalLanguageRelease,download_url
-01997fa0-ae64-74d1-85c3-112ba5affc5c,dataset,http://wellyzhang.github.io/project/acre.html,download_url
+01997fa0-ae64-74d1-85c3-112ba5affc5c,dataset,https://github.com/WellyZhang/ACRE,download_url
 01997fa0-adc9-7430-bac0-f528b34c2054,dataset,https://www.usgs.gov/labs/spectroscopy-lab/usgs-spectral-library,download_url
 019a0529-5001-7bd0-a101-72f310b322af,dataset,https://github.com/google-research-datasets/KELM-corpus,download_url
 01997fa0-ae0f-7673-b4a5-4a8f6971d9ba,dataset,https://www.ncei.noaa.gov/products/world-ocean-database,download_url
@@ -5957,7 +5957,8 @@ id,type,url,url_type
 01997fa0-ae42-7cca-b222-ae233d22c356,dataset,https://www.encodeproject.org/,download_url
 019a0529-498d-7f26-b8b1-75a23b843588,dataset,https://heasarc.gsfc.nasa.gov/,download_url
 01997fa0-ae5b-77e9-872a-1b3d832d3429,dataset,https://ftp.ncbi.nih.gov/genomes/CLUSTERS/,download_url
-019a0529-5195-75c3-91fe-7ae5c87eff2c,dataset,https://ai.facebook.com/datasets/segment-anything/,download_url
+019a0529-5195-75c3-91fe-7ae5c87eff2c,dataset,https://ai.meta.com/datasets/segment-anything-downloads/,download_url
+019a0529-5195-75c3-91fe-7ae5c87eff2c,dataset,https://openxlab.org.cn/datasets/OpenDataLab/SA-1B,download_url
 019a0529-4ca5-752a-85f4-b4b953da5738,dataset,https://www.hycom.org/,download_url
 019a0529-4da1-7666-8a09-0def7092b78a,dataset,https://www.metabolomicsworkbench.org/,download_url
 01997fa0-adc2-73f1-b08d-93edf8603d2a,dataset,https://lambda.gsfc.nasa.gov/product/wmap/dr5/m_products.html,download_url
