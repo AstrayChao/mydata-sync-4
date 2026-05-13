@@ -4896,7 +4896,7 @@ id,type,url,url_type
 01997fa0-adea-7480-a87b-6996a50b1ab3,dataset,http://superdarn.ca/,database_url
 01997fa0-adea-7480-a87b-6996a50b1ab3,dataset,https://www.bas.ac.uk/project/superdarn/,database_url
 01997fa0-adec-7879-b542-f9ebd8cea7a5,dataset,https://umbra.nascom.nasa.gov,database_url
-01997fa0-adec-7879-b542-f9ebd8cea7a5,dataset,http://secchi.nrl.navy.mi,database_url
+01997fa0-adec-7879-b542-f9ebd8cea7a5,dataset,https://secchi.nrl.navy.mil,database_url
 01997fa0-adec-7879-b542-f9ebd8cea7a5,dataset,http://ylstone.physics.montana.edu,database_url
 019a0529-5203-7a37-92ae-2214089ddeb0,dataset,https://bensapp.github.io,database_url
 019a0529-48fb-719e-ac48-4fe9cb8636d5,dataset,https://aris.iaea.org/,database_url
