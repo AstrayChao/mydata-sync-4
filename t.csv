@@ -4974,7 +4974,7 @@ id,type,url,url_type
 019a0529-4ce9-798d-bb7c-fa88b8c00ffb,dataset,https://genomics.senescence.info/,database_url
 01997fa0-adeb-7e3e-b543-9ff6d968f151,dataset,http://159.226.22.207/brazil,database_url
 019a0529-4cdb-757c-ae2f-e4f0af8a3e42,dataset,https://portal.nersc.gov/CheckV,database_url
-019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/dataset/noaa-high-resolution-sea-surface-temperature-sst-analysis-products2,database_url
+019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/,database_url
 019a0529-48d5-7768-aee5-6fb68dd3444f,dataset,https://www.iaea.org/resources/databases/nuclear-data-services,database_url
 019a0529-4ccf-7659-941a-a1e4cdd4769b,dataset,https://calscape.org/,database_url
 019a0529-4d22-71cf-b43e-46789b222a77,dataset,http://www.pantherdb.org/,database_url
@@ -5528,7 +5528,8 @@ id,type,url,url_type
 019a0529-4e9d-76db-bf96-75c28bc2f04e,dataset,https://www.marylandbiodiversity.com/,download_url
 019a0529-4c01-7919-a549-98453145f743,dataset,https://www.cpc.ncep.noaa.gov/products/CORe/pns/eval/eval_datasets.html,download_url
 01997fa0-ae25-76be-9f09-83d4502aafb3,dataset,https://georem.mpch-mainz.gwdg.de/,download_url
-019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/dataset/noaa-high-resolution-sea-surface-temperature-sst-analysis-products2,download_url
+019a0529-4b35-7b9d-96af-d10fc7566a4e,dataset,https://catalog.data.gov/dataset/noaa-high-resolution-sea-surface-temperature-sst-analysis-products?from_hint=eyJxIjoiaGlnaCByZXNvbHV0aW9uIHNlYSBzdXJmYWNlIHRlbXBlcmF0dXJlICIsInNvcnQiOiJyZWxldmFuY2UifQ%3D%3D
+,download_url
 019a0529-4d95-7f5a-929a-9d5527ef87a3,dataset,https://www.ebi.ac.uk/metabolights/,download_url
 01997fa0-ae6d-7a42-b711-a615a9c92194,dataset,https://github.com/Keith-S-Thompson/dhrystone,download_url
 01997fa0-adf5-7b1f-894b-8aaa30c37ded,dataset,https://gwosc.org/eventapi/html/GWTC/,download_url
