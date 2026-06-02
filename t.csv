@@ -5321,7 +5321,7 @@ id,type,url,url_type
 01997fa0-adf1-7fb8-9b97-f0e187c2ea15,dataset,https://www.obs-nancay.fr/,database_url
 01997fa0-adf4-71a8-a3f5-17f1aa02e2f7,dataset,https://cosmicrays.oulu.fi/,database_url
 01997fa0-adf7-7333-8205-0261e7492752,dataset,http://www.minorplanet.info/,database_url
-01997fa0-adcd-7e15-b93f-3fcaabf53545,dataset,https://www.physics.nist.gov/cgi-bin/Xcom/xcom2?Method=Elem&Output2=Hand,database_url
+01997fa0-adcd-7e15-b93f-3fcaabf53545,dataset,https://physics.nist.gov/cgi-bin/Xcom/xcom2?Method=Elem&Output2=Hand,database_url
 01997fa0-adf0-7940-bb94-11eda6de8f02,dataset,https://www.lmsal.com/hek/,database_url
 01997fa0-ade6-7a28-8624-2a0b25974948,dataset,http://wdc.kugi.kyoto-u.ac.jp/,database_url
 01997fa0-adf8-7c84-b778-457ea999e530,dataset,https://alcdef.org/,database_url
@@ -5990,7 +5990,7 @@ id,type,url,url_type
 01997fa0-adf8-7c84-b778-457ea999e530,dataset,https://alcdef.org/,download_url
 01997fa0-ae73-75ea-af28-655e1c789a8c,dataset,https://antoyang.github.io/just-ask.html,download_url
 01997fa0-ae22-7078-ab23-c2044f53f358,dataset,https://ecl.earthchem.org/search_results.php?offset=50&a1=&e5=&g7=&h8=&h9,download_url
-01997fa0-adcd-7e15-b93f-3fcaabf53545,dataset,https://www.physics.nist.gov/cgi-bin/Xcom/xcom2?Method=Elem&Output2=Hand,download_url
+01997fa0-adcd-7e15-b93f-3fcaabf53545,dataset,https://physics.nist.gov/cgi-bin/Xcom/xcom2?Method=Elem&Output2=Hand,download_url
 01997fa0-ae3c-7729-ac29-ef86e604be42,dataset,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/,download_url
 01997fa0-ae54-7d0a-be0f-d664f0538823,dataset,https://neuromorpho.org/index.jsp,download_url
 01997fa0-ae14-7097-8d82-8b577c7ef8f4,dataset,https://www.whymap.org/whymap/EN/About/about_node_en.html,download_url
