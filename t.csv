@@ -5629,8 +5629,7 @@ id,type,url,url_type
 01997fa0-ae4d-7429-ad2f-b0281ea61569,dataset,https://www.humanconnectome.org/,download_url
 01997fa0-adc2-7506-8992-d4266ce814f2,dataset,https://lambda.gsfc.nasa.gov/product/planck/curr/planck_prod_irsa.html,download_url
 01997fa0-ae36-7d6d-b321-675904a0ac4b,dataset,https://blast.ncbi.nlm.nih.gov/Blast.cgi,download_url
-01997fa0-ae3a-7a99-b796-7878c32d620d,dataset,http://cistrome.org/batchdownload/CistromeDB_mm10_tranfac_version_3.0.gz,download_url
-01997fa0-ae3a-7a99-b796-7878c32d620d,dataset,http://cistrome.org/batchdownload/CistromeDB_hg38_tranfac_version_3.0.gz,download_url
+01997fa0-ae3a-7a99-b796-7878c32d620d,dataset,https://cistrome.org/db/#/,download_url
 019a0529-5031-7a21-b799-02614e6a6dc0,dataset,https://www.kaggle.com/pengcw1/market-1501/data,download_url
 01997fa0-ae56-79ff-bcf3-00cc3ba76d45,dataset,https://opencell.sf.czbiohub.org/,download_url
 01997fa0-adc6-7a5e-8f1d-6524f0214273,dataset,https://bmrb.io/,download_url
@@ -5749,7 +5748,7 @@ id,type,url,url_type
 01997fa0-ae45-7eed-954c-f2878db4bc8a,dataset,https://www.gencodegenes.org/pages/data_access.html,download_url
 01997fa0-ae40-7d02-a52c-613155bebe1d,dataset,https://depmap.org/portal/data_page/,download_url
 01997fa0-ae49-704b-bab5-466595f1b2e4,dataset,https://gold.jgi.doe.gov/downloads,download_url
-01997fa0-ae48-7b3d-b074-83450e5461ac,dataset,https://vizhub.healthdata.org/,download_url
+01997fa0-ae48-7b3d-b074-83450e5461ac,dataset,https://ghdx.healthdata.org/gbd-2023,download_url
 01997fa0-ae03-7b75-84c5-a9e8e4651e99,dataset,https://www.earthdata.nasa.gov/data/catalog/ghrc-daac-modiscpex-1,download_url
 01997fa0-ae69-7380-8af4-e72caef47d9f,dataset,https://stanfordmlgroup.github.io/competitions/chexpert/,download_url
 01997fa0-ae08-794c-927e-a1b0c70a10b4,dataset,https://www.geodata.cn/data/datadetails.html?dataguid=56377345710900&docId=28538,download_url
@@ -6069,7 +6068,7 @@ id,type,url,url_type
 "BIO-03-026","dataset","https://icgc.org/","database_url"
 "BIO-03-026","dataset","https://icgc.org/","download_url"
 "BIO-03-027","dataset","https://platform.opentargets.org/","database_url"
-"BIO-03-027","dataset","https://www./downloads/data","download_url"
+"BIO-03-027","dataset","https://platform.opentargets.org/","download_url"
 "BIO-03-028","dataset","https://www.cancerimagingarchive.net/","database_url"
 "BIO-03-028","dataset","https://www.cancerimagingarchive.net/","download_url"
 "BIO-03-029","dataset","https://data.humancellatlas.org/","database_url"
