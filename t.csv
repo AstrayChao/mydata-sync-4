@@ -5758,7 +5758,7 @@ id,type,url,url_type
 01997fa0-adc7-7346-91db-5086137693e5,dataset,http://www.chemspider.com/,download_url
 01997fa0-ae01-72fd-a3aa-2a4343a622b8,dataset,https://ivscc.gsfc.nasa.gov/products-data/data.html,download_url
 019a0529-4a75-74c5-b36d-52f3cc59accf,dataset,https://lasp.colorado.edu/data/sorce/ssi_data/composite/sorce_L3_combined_c24h_20030225_20200225.txt.zip,download_url
-01997fa0-ae65-7ea9-a1a5-a86fe6852b64,dataset,https://space.mit.edu/home/tegmark/aifeynman.html,download_url
+01997fa0-ae65-7ea9-a1a5-a86fe6852b64,dataset,https://github.com/SJ001/AI-Feynman,download_url
 01997fa0-ae46-791b-b981-41293509f1c8,dataset,https://ftp.ncbi.nih.gov/gene/,download_url
 01997fa0-adcd-7ab0-ad26-bd644b7ef014,dataset,https://scintillator.lbl.gov/,download_url
 01997fa0-adf7-773b-8b04-ed5a379013ed,dataset,https://ssp.imcce.fr/webservices/ssodnet/,download_url
