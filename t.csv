@@ -5183,7 +5183,7 @@ id,type,url,url_type
 019a0529-4ea9-7fb7-b6d3-ce51dcb730df,dataset,https://collections.nmnh.si.edu/search/botany/,database_url
 019a0529-4fe9-7ad2-a8fc-b8fb0a23074b,dataset,https://github.com,database_url
 019a0529-511d-777d-bf2a-8374611b5ca1,dataset,https://scienceqa.github.io,database_url
-01997fa0-adcb-7322-ae03-2383d9ac3132,dataset,https://moleculenet.org/,database_url
+01997fa0-adcb-7322-ae03-2383d9ac3132,dataset,https://deepchem.readthedocs.io/en/latest/index.html#,database_url
 01997fa0-add5-7829-b18d-f13b96c23b62,dataset,https://www.reaxys.com/,database_url
 019a0529-4ee9-7922-9a73-535bfb9c17f8,dataset,https://rail.eecs.berkeley.edu,database_url
 019a0529-4ff5-7812-9f71-6bd86ccb496f,dataset,https://github.com,database_url
@@ -5906,7 +5906,7 @@ id,type,url,url_type
 01997fa0-ae48-752c-bafc-f1438326205b,dataset,http://gnomad-sg.org/downloads,download_url
 01997fa0-ae2e-73e1-9704-f463716e23af,dataset,"https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0304215#:~:text=This%20dataset%20contains%20four%20companion%20digital%20models%20of,as%20geographic%20and%20Mercator%20grids%20with%20two-minute%20resolution",download_url
 01997fa0-ae28-7c1f-9936-06cefee2e0d1,dataset,https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-multi-resolution-terrain-elevation,download_url
-01997fa0-adcb-7322-ae03-2383d9ac3132,dataset,https://moleculenet.org/datasets-1,download_url
+01997fa0-adcb-7322-ae03-2383d9ac3132,dataset,https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html,download_url
 019a0529-5093-7730-9e63-0c6d08d34623,dataset,https://github.com/hughw19/NOCS_CVPR2019,download_url
 01997fa0-ae50-7575-a7c7-a11b5faa964c,dataset,https://clue.io/data/l1000,download_url
 019a0529-4e0b-76f2-b0a8-826b102a366a,dataset,PRIDE - PRoteomics IDEntifications Database,download_url
