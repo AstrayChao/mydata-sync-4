@@ -5296,7 +5296,7 @@ id,type,url,url_type
 01997fa0-adc5-794d-98e3-263dcb940ff6,dataset,https://aflowlib.org/,database_url
 01997fa0-adff-7d0c-8aa2-08a20462f38b,dataset,http://tinyurl.com,database_url
 01997fa0-ae35-7235-9072-2475fa042ec7,dataset,https://www.ncbi.nlm.nih.gov/,database_url
-01997fa0-adca-713c-8998-fd2c5907df44,dataset,https://nmrshiftdb.nmr.uni-koeln.de/nmrshiftdb/media-type/html/user/anon/page/default.psml/js_pane/P-Home;jsessionid=C7A900D3E2B46E16D916A75CFABBD830,database_url
+01997fa0-adca-713c-8998-fd2c5907df44,dataset,https://sourceforge.net/projects/nmrshiftdb2/files/data/,database_url
 01997fa0-ae04-7c1e-acd2-26ce0fd4600e,dataset,https://www.hinet.bosai.go.jp/,database_url
 01997fa0-ae2d-72fb-81fc-a86537e05b68,dataset,https://www.gfz.de/en/,database_url
 01997fa0-add4-7042-8b77-045538866edf,dataset,https://zinc.docking.org/,database_url
@@ -5860,8 +5860,8 @@ id,type,url,url_type
 01997fa0-ae43-787f-aa09-b7de6a5c6372,dataset,https://fastmri.org,download_url
 01997fa0-ae37-7bb6-8570-71fba56e76f0,dataset,https://bbbc.broadinstitute.org/image_sets,download_url
 01997fa0-ae02-7a0e-8e55-94816072d562,dataset,https://www.space-track.org/,download_url
-01997fa0-ae2e-7477-9d12-de77f31a42e2,dataset,https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html,download_url
-01997fa0-ae2e-7477-9d12-de77f31a42e2,dataset,https://www.iers.org/IERS/EN/DataProducts/GeophysicalFluidsData/geoFluids.html,download_url
+01997fa0-ae2e-7477-9d12-de77f31a42e2,dataset,https://www.iers.org/iers/en/dataproducts/geophysicalfluidsdata/geofluids,download_url
+01997fa0-ae2e-7477-9d12-de77f31a42e2,dataset,https://www.iers.org/iers/en/dataproducts/earthorientationdata/eop,download_url
 01997fa0-ae77-72ee-8cc7-8dfcb0705ce5,dataset,https://snap.stanford.edu/data/memetracker9.html,download_url
 01997fa0-ae10-7c47-9ea5-88d6536008ba,dataset,https://psl.noaa.gov/data/gridded/data.gpcc.html,download_url
 01997fa0-ae31-7672-9d61-50b111d5ac4e,dataset,https://portal.brain-map.org/,download_url
@@ -5946,7 +5946,7 @@ id,type,url,url_type
 01997fa0-adea-7480-a87b-6996a50b1ab3,dataset,http://superdarn.org/,download_url
 01997fa0-adea-7480-a87b-6996a50b1ab3,dataset,https://superdarn.ca/,download_url
 01997fa0-adea-7480-a87b-6996a50b1ab3,dataset,https://www.bas.ac.uk/project/superdarn/,download_url
-01997fa0-adca-713c-8998-fd2c5907df44,dataset,https://nmrshiftdb.nmr.uni-koeln.de/nmrshiftdb/media-type/html/user/anon/page/default.psml/js_pane/P-Search;jsessionid=C7A900D3E2B46E16D916A75CFABBD830,download_url
+01997fa0-adca-713c-8998-fd2c5907df44,dataset,https://sourceforge.net/projects/nmrshiftdb2/files/data/,download_url
 01997fa0-ae04-7e22-bec8-45b8c39d2bec,dataset,http://tds.hycom.org/thredds/catalogs/GLBv0.08/expt_53.X.html,download_url
 019a0529-4fb7-7448-8aec-b0ca3516d8a4,dataset,https://github.com/LisaAnne/TemporalLanguageRelease,download_url
 01997fa0-ae64-74d1-85c3-112ba5affc5c,dataset,https://github.com/WellyZhang/ACRE,download_url
