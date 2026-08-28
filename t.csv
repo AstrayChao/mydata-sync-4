@@ -5993,8 +5993,8 @@ id,type,url,url_type
 01997fa0-ae3c-7729-ac29-ef86e604be42,dataset,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/,download_url
 01997fa0-ae54-7d0a-be0f-d664f0538823,dataset,https://neuromorpho.org/index.jsp,download_url
 01997fa0-ae14-7097-8d82-8b577c7ef8f4,dataset,https://www.whymap.org/whymap/EN/About/about_node_en.html,download_url
-"AS-03-001","dataset","https://apis.obspm.fr/-Dataset-.html","database_url"
-"AS-03-001","dataset","https://apis.obspm.fr/-Dataset-.html","download_url"
+"CH-03-001","dataset","https://apis.obspm.fr/-Dataset-.html","database_url"
+"CH-03-001","dataset","https://apis.obspm.fr/-Dataset-.html","download_url"
 "AS-03-002","dataset","https://polaris.nipr.ac.jp/~aurora/datacatalog/datacatalog.html","database_url"
 "AS-03-002","dataset","http://pc115.seg20.nipr.ac.jp/www/AQVN/index.html","download_url"
 "AS-03-003","dataset","https://stdb2.isee.nagoya-u.ac.jp/omti/","database_url"
@@ -6090,8 +6090,8 @@ id,type,url,url_type
 "BIO-03-036","dataset","https://lipidmaps.org/","download_url"
 "BIO-03-037","dataset","https://www.ebi.ac.uk/pride/","database_url"
 "BIO-03-037","dataset","https://www.ebi.ac.uk/pride/","download_url"
-"CH-03-001","dataset","https://pppdb.uchicago.edu/","database_url"
-"CH-03-001","dataset","https://pppdb.uchicago.edu/","download_url"
+"PH-03-028","dataset","https://pppdb.uchicago.edu/","database_url"
+"PH-03-028","dataset","https://pppdb.uchicago.edu/","download_url"
 "CH-03-002","dataset","https://www.perovskitedatabase.com","database_url"
 "CH-03-002","dataset","https://www.perovskitedatabase.com/Download","download_url"
 "CH-03-003","dataset","https://www.catalysis-hub.org/","database_url"
@@ -6184,5 +6184,5 @@ id,type,url,url_type
 "PH-03-026","dataset","https://mits.nims.go.jp/index.html","download_url"
 "PH-03-027","dataset","https://cccbdb.nist.gov/","database_url"
 "PH-03-027","dataset","https://cccbdb.nist.gov/","download_url"
-"PH-03-028","dataset","https://inspirehep.net/","database_url"
-"PH-03-028","dataset","https://inspirehep.net/","download_url"
+"AS-03-001","dataset","https://inspirehep.net/","database_url"
+"AS-03-001","dataset","https://inspirehep.net/","download_url"
